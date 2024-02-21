@@ -1,0 +1,71 @@
+
+programa{
+   	//07
+	funcao incio(){
+            //Declaração das variáveis.
+	cadeia nome,qntdAdquerida,precoUnitario,total,totalAPagar
+            
+ //Pedindo dados de entrada ao usuário.
+	inteiro desconto
+	escreva("\nDigite o nome do produto:")	
+	leia(nome)
+	
+	escreva("\nDigite a quantidade adquirida:")
+	leia(qntdAdquerida)
+	
+	escreva("\nDigite o preço unitário:")
+	leia(precoUnitario)
+	//Calculando a operação principal.
+	total=preocoUnitario*qntdAdquerida
+	desconto=qntdAdquerida*0.2
+	desconto=qntdAdquerida*0.3
+	desconto=qntdAdquerida*0.5
+	
+	se(qntdAdquerida<=5){
+	}
+	desconto=qntdAdquerida*0.2
+	
+	se(qntdAdquerida>5 e qntdAdquerida<=10){
+	desconto=qntdAdquerida*0.3
+	}
+	
+	
+	se(qntdAdquerida>10){
+    desconto=qntdAdquerida*0.5
+	}
+	
+	totalAPagar=total-desconto
+            //Exibindo os resultados.
+escreva(“\nO valor do desconto é:”,desconto”)
+escreva(“\nO total a pagar é:”total_a_pagar)
+escreva(“\nO total é:”,total)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
