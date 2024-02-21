@@ -1,6 +1,6 @@
 
 programa{
-   	//07
+   	//07)
 	funcao incio(){
             //Declaração das variáveis.
 	cadeia nome,qntdAdquerida,precoUnitario,total,totalAPagar
