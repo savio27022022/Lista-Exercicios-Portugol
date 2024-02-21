@@ -1,0 +1,63 @@
+
+   programa{
+   //02)	
+funcao inicio(){
+//Declaração  das variáveis.
+cadeia nome, sexo, estadoCivil
+cadeia tempoDeCasada
+//Pedindo dados ao usuário.
+escreva("Digite o seu nome: ")
+leia(nome)
+escreva("Digite o seu sexo (M/F): ")
+leia(sexo)
+
+escreva("Digite o seu estado civil: ")
+leia(estadoCivil)
+//Executando se usuário “casada” e sexo “F”
+se(sexo == "F" e estadoCivil == "CASADA"){
+escreva("Digite o tempo de casada em anos:")
+leia(tempoDeCasada)
+}
+//Exibindo Resultados.
+escreva("\n--- Dados Finais ---\n")
+escreva("nome: ", nome, "\n")
+escreva("sexo: ", sexo, "\n")
+escreva("estado civil: ", estadoCivil, "\n")
+escreva("tempo de casada em anos:”,tempoDeCasada,”\n”)
+
+
+		
+		      }
+	      }
+      }	         
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
