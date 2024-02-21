@@ -1,6 +1,6 @@
 
   programa{
-   	//08
+   	//08)
    	 funcao inicio(){
       //declarando as variáveis. 
     cadeia verde,azul,amarelo,vermelho,cd,valor
