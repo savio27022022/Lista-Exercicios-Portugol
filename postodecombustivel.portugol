@@ -1,6 +1,6 @@
 programa
 {
-//10	
+//10)	
 funcao inicio(){
 //declarando as variáveis.
 real litrosVendidos, precoPorLitro, totalSemDesconto, totalComDesconto, descontoPorLitro;
