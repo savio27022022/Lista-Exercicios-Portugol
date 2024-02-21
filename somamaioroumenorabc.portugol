@@ -1,0 +1,58 @@
+
+   programa{
+   //01)
+
+	 funcao inicio(){
+  // Declaração das variáveis
+   real  A, B, C 
+
+   // Leitura dos valores
+  escreva("Digite o valor de A: ")
+  leia(A)
+  escreva("Digite o valor de B: ")
+  leia(B)
+  escreva("Digite o valor de C: ")
+  leia(C)
+
+  // Cálculo da soma
+  real soma = A + B
+
+  // Comparação da soma com C
+  se (soma < C)
+  escreva("A soma de A + B é menor que C:")
+   senao
+  escreva("A soma de A + B é maior que C:")
+  
+	
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
