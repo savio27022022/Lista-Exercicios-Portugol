@@ -1,0 +1,67 @@
+
+programa{
+ funcao inicio(){
+  //05
+//Declaração de variáveis.
+
+  inteiro  soma,subtracao
+   inteiro multiplicacao,divisao 
+   inteiro a,b
+ //Pedindo dados de entrada ao usuário.
+    escreva("\nDigite o valor de a:")
+    leia(a)
+
+    escreva("\nDigite o valor de b:")
+    leia(b)
+ //calculando as 4 operações.
+     soma=a+b
+     subtracao=a-b
+     multiplicacao=a*b
+     divisao=a/b
+
+//Exibindo o resultado.
+escreva("===Exibir Dados======")
+escreva("\nA soma é:",soma)
+escreva("\nA subtração é:",subtracao)
+escreva("\nA multiplicação   é:",multiplicacao)
+escreva("\nA divisão é:",divisao)
+
+
+
+    
+   
+
+
+                    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
