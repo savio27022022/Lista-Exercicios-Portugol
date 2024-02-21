@@ -1,0 +1,64 @@
+programa{
+  //03
+  funcao inicio(){
+
+      //Declarando variáveis.
+        inteiro A, B, C
+
+        //Pedindo dados ao usuário.
+        escreva("Digite o valor de A: ")
+        leia(A)
+        
+        escreva("Digite o valor de B: ")
+        leia(B)
+       // Executando a soma e multiplicação. 
+        se(A == B) {
+            C = A + B
+        }
+        senao {
+            C = A * B
+        }
+        //Exibindo o resultado das operações.
+        escreva("O resultado é: ", C)
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
