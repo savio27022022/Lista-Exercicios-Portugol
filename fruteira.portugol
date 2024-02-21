@@ -1,0 +1,88 @@
+
+programa{
+  //04
+  funcao inicio(){
+//Declaração das variáveis.
+  cadeia
+qntd_morango_kg,qntd_maca_kg,preco_morango_acima_5
+  cadeia preco_morango_ate_5
+  cadeia preco_maca_ate_5,preco_maca_acima_5
+  cadeia valor_total,desconto,vakor_final
+  cadeia valor_morango,valor_maca
+ 
+  
+  escreva("\n=====Tabela de Preços de uma fruteira=======\n")
+  escreva("\nMorango-R$2,50 por kg||Até 5kg||R$2,20 por kg||Acima de 5kg\n")
+  escreva("\nMaçã-R$1,80-por kg   ||Até 5kg||R$2,20 por kg||Acima de 5kg\n")
+  
+  escreva("\nDigite  a quantidade de morangos em (kg):")
+  leia(qntd_morango_kg)
+  //Pedindo dados ao usuário dos morangos e maçãs em (kg:)
+  escreva("\nDigite a quantidade de maçãs em (kg):")
+  leia(qntd_maca_kg)
+  
+//calculando as operações com qntd_morango_kg  e qntd_maca_kg.
+ se(qntd_morango_kg<=5){
+  }
+  valor_morango=qntd_morango_kg*preco_morango_ate_5
+  
+  }senao{
+}
+  valor_morango=qntd_morango_kg*preco_morango_acima_5
+  
+  se(maca_kg<=5){
+  valor_maca=qntdmaca_kg*preco_maca_ate_5
+  
+  }senao{
+}
+  valor_maca=qntd_maca_kg*preco_maca_acima_5
+  
+  
+  valor_total=valor_morango +valor_maca
+  
+  se(valor_total>=25 ou morango_kg+maca_kg>=8){
+  desconto=valor_final* 0.1
+  valor_final=valor_total-desconto 
+  
+  }senao{
+  valor_final=valor_total
+
+//Exibindo resultados.
+escreva(“\nO valor total é:”,valor_total)
+escreva(“\nO valor final é:”,valor_final)
+
+
+ } 
+  
+                    
+                                              }
+		  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
