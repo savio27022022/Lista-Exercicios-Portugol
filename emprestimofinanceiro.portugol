@@ -1,6 +1,6 @@
 
   programa{
-   	//09
+   	//09)
    	funcao inicio(){
 //Declaração de variáveis. 
   real  rendaMensal, valorEmprestimo, numPrestacoes
