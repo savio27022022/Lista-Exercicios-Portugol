@@ -1,0 +1,61 @@
+
+  programa{
+   	//09
+   	funcao inicio(){
+//Declaração de variáveis. 
+  real  rendaMensal, valorEmprestimo, numPrestacoes
+//Pedindo dados ao usuário.
+   escreva("Informe a renda mensal do solicitante: ")
+   leia(rendaMensal)
+
+   escreva("Informe o valor total do empréstimo solicitado:")
+   leia(valorEmprestimo)
+
+   escreva("Informe o número de prestações desejadas:")
+   
+  leia (numPrestacoes)
+//calculando a operação principal  do empréstimo e descontos por meio de condicionais.
+se (valorEmprestimo <= rendaMensal * 10) e ((valorEmprestimo / numPrestacoes) <= (rendaMensal * 0.3))
+    escreva("Empréstimo concedido.")
+  }senao{
+    escreva ("Empréstimo não pode ser concedido.")
+
+//Exibindo Resultados.
+Escreva(“\nO empréstimo pode ser concedido:”,valor_emprestimo)
+escreva(“\nO empréstimo não pode ser concedido:”,valor_emprestimo)
+
+   	}
+   }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
