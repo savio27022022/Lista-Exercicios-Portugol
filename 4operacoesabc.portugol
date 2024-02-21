@@ -1,7 +1,7 @@
 
 programa{
  funcao inicio(){
-  //05
+  //05)
 //Declaração de variáveis.
 
   inteiro  soma,subtracao
