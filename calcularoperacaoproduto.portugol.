@@ -17,21 +17,21 @@ programa{
 	leia(precoUnitario)
 	//Calculando a operação principal.
 	total=preocoUnitario*qntdAdquerida
-	desconto=qntdAdquerida*0.2
-	desconto=qntdAdquerida*0.3
-	desconto=qntdAdquerida*0.5
+	desconto=qntdAdquerida*0.02
+	desconto=qntdAdquerida*0.03
+	desconto=qntdAdquerida*0.05
 	
 	se(qntdAdquerida<=5){
 	}
-	desconto=qntdAdquerida*0.2
+	desconto=qntdAdquerida*0.02
 	
 	se(qntdAdquerida>5 e qntdAdquerida<=10){
-	desconto=qntdAdquerida*0.3
+	desconto=qntdAdquerida*0.03
 	}
 	
 	
 	se(qntdAdquerida>10){
-    desconto=qntdAdquerida*0.5
+    desconto=qntdAdquerida*0.05
 	}
 	
 	totalAPagar=total-desconto
