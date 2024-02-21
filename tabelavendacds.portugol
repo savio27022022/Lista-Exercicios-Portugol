@@ -1,0 +1,77 @@
+
+  programa{
+   	//08
+   	 funcao inicio(){
+      //declarando as variáveis. 
+    cadeia verde,azul,amarelo,vermelho,cd,valor
+	inteiro opcao
+   escreva("\n====Tabela da loja de cds=======")
+   escreva("\n[1]Verde------R$10,00")
+   escreva("\n[2]Azul-------R$20,00")
+   escreva("\n[3]Amarelo----R$30,00")
+   escreva("\n[4]Vermelho---R$40,00")
+   //Pedindo os Dados de entrada ao usuário.
+   escreva("\nDigite a opção desejada:")
+   leia(opcao)
+   //Executando o escolha caso para operação das cores e valores do cd.
+   escolha(opcao){
+   }
+   caso 1:
+   opcao=1
+   cd="Verde"
+   valor="R$10,00"
+   pare
+   
+   caso 2:
+   
+   opcao=2
+   cd="Azul"
+   valor="R$20,00"
+   pare
+   
+   caso 3:
+   opcao=3
+   cd="Amarelo"
+   valor="R$30,00"
+   pare
+   
+   caso 4:
+   opcao=4
+   cd="Vermelho"
+   valor="R$40,00"
+   
+   caso contrario:
+   escreva("\nOpção Inválida:")
+  //Exibindo os dados.
+   escreva("\n===Exibir dados=====")
+   escreva("\nA sua opção dessjada é:",opcao)
+   
+   	 }
+   	 
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
