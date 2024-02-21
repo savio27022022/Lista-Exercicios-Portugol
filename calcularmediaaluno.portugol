@@ -1,0 +1,62 @@
+programa{
+//06
+	  	
+funcao inicio(){
+//Declaração das variáveis. 
+real nota1,nota2,media
+	  	
+//Pedindo dados das notas ao usuário.
+escreva("\nDigite a primeira nota do aluno:")
+leia(nota1)
+	  	
+escreva("\nDigite a segunda nota do aluno:")
+leia(nota2)
+
+//calculando a média.	
+media=nota1+nota2/nota2
+	  	
+se(media>=6.0){
+ escreva("\nparabéns você está aprovado(a)!!")
+	  
+ }senao se(media>=4.0){
+ //Exibindo os dados.
+ escreva("\nVocê está na recuperação  estude mais!!")
+  }senao{
+escreva("\nVocê está reprovado(a)!!!")
+	  	
+	  
+                      }       
+
+         }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
